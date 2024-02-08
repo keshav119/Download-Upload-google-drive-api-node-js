@@ -1,11 +1,28 @@
-Install all the necessary packages for importing the modules in the prod environment
-Steps to have feed the download file and upload location details:
-1. share the file and folder on google drive with email address "channakeshav99.ck@gmail.com".
-2. use your own API credentials and make a new refresh token for the first time if you donot trust the above gmail address.
-3. get the file and folder ID from the link and store it in a note pad.
-4. run the file using console command(node index.js).
-5. then it asks for arguments. the first argument is the file ID where you have to paste the file ID and press enter.
-6. then it asks for the second argument in which you will provide the destination folder ID and press enter.
-7. Then finally you can track the progress in the console itself.
+# Google Drive Script Setup Guide
 
-reach out to me at the same above mentioned email address for any doubts or queries.
+## Prerequisites:
+1. **Node.js and npm:**
+   - Make sure you have Node.js and npm installed. You can download them from [Node.js official website](https://nodejs.org/).
+
+2. **Google API Project:**
+   - Create a new project in the [Google Cloud Console](https://console.cloud.google.com/).
+   - Enable the Google Drive API for your project.
+   - Create OAuth 2.0 credentials (client ID and client secret).
+   - Download the credentials as `credentials.json` and save them in the same directory as your script.
+
+## Google Drive Setup:
+1. Create a Google Drive folder where you want to store the downloaded chunks.
+   - Note the folder ID for later use.
+
+2. Install all the necessary packages for importing the modules in the production environment.
+
+## Steps to Feed Download File and Upload Location Details:
+1. Share the file and folder on Google Drive with the email address `channakeshav99.ck@gmail.com`.
+   
+2. Use your own API credentials and make a new refresh token for the first time if you don't trust the above Gmail address.
+
+3. Get the file and folder ID from the link and store it in a notepad.
+
+4. Run the script using the console command:
+   ```bash
+   node index.js
