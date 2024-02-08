@@ -21,7 +21,7 @@
    
 2. Use your own API credentials and make a new refresh token for the first time to get the Token.json file.
 
-3. Get the file and folder ID from the link and store it in a notepad.
+3. Get the file and folder ID from the link (Look up how to get a file or folder ID from the share file link) and store it in a notepad.
 
 4. Run the script using the console command:
    ```bash
