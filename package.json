@@ -1,0 +1,16 @@
+{
+  "name": "google-drive-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "file-saver": "^2.0.5",
+    "googleapis": "^105.0.0"
+  }
+}
