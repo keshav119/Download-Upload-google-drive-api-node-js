@@ -17,9 +17,9 @@
 2. Install all the necessary packages for importing the modules in the production environment.
 
 ## Steps to Feed Download File and Upload Location Details:
-1. Share the file and folder on Google Drive with the email address `channakeshav99.ck@gmail.com`.
+1. Share the file and folder on Google Drive with the email adress from which you are obtaining the API Key from.
    
-2. Use your own API credentials and make a new refresh token for the first time if you don't trust the above Gmail address.
+2. Use your own API credentials and make a new refresh token for the first time to get the Token.json file.
 
 3. Get the file and folder ID from the link and store it in a notepad.
 
@@ -34,6 +34,6 @@
 
 3. Finally, you can track the progress in the console itself.
 
-For any doubts or queries, reach out to the same email address mentioned above.
+For any doubts or queries, reach out to the same email address channakeshav99.ck@gmail.com.
 
 
