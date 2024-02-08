@@ -14,7 +14,7 @@ const TOKEN_PATH = path.join(process.cwd(), 'token.json');
 const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json');
 let FILE_ID = (null);
 let UPLOAD_FILE_ID = (null);
-let FOLDER_ID = (nulln);
+let FOLDER_ID = (null);
 var chunks = [];
 const CHUNK_SIZE = 1024*1024*10;
 
