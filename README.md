@@ -26,3 +26,14 @@
 4. Run the script using the console command:
    ```bash
    node index.js
+
+## The script will prompt for arguments:
+1. The first argument is the file ID. Paste the file ID and press Enter.
+
+2. The second argument is the destination folder ID. Provide the folder ID and press Enter.
+
+3. Finally, you can track the progress in the console itself.
+
+For any doubts or queries, reach out to the same email address mentioned above.
+
+
